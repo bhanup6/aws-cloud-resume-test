@@ -46,7 +46,7 @@ var typed = new Typed('#typed', {
     strings: [
         'VMWare Infra Architect',
         'Cloud Engineer',
-        'Cloud Architect',
+        'Infra Automation Engineer',
         'DevOps Engineer'
     ],
     typeSpeed: 50,
