@@ -1,7 +1,6 @@
 jobs:
-    your_job_name:
+    TestJob:
       runs-on: ubuntu-latest
       steps:
         - name: Use secret in a command
-          run: echo ${{ ecrets.AWS_S3_BUCKET }}
-          
+          run: echo ${{ secrets.AWS_S3_BUCKET }}
