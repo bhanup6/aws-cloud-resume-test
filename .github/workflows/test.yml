@@ -4,3 +4,4 @@ jobs:
       steps:
         - name: Use secret in a command
           run: echo ${{ ecrets.AWS_S3_BUCKET }}
+          
