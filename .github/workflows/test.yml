@@ -1,7 +1,0 @@
-jobs:
-    testjob:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Use secret in a command
-          run: echo ${{ secrets.AWS_S3_BUCKET }}
-          
